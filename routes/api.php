@@ -23,6 +23,7 @@ require __DIR__ . '/api/v2.php';
 Route::prefix('auth')->group(function(){
     Route::post('/login', LoginController::class);
     Route::post('/logout', LogoutController::class)->middleware('auth:sanctum');
+    dd(1);
     Route::post('/register', RegisterController::class);
 });
 
