@@ -31,4 +31,6 @@ return [
 
     'supports_credentials' => true,
 
+    'axios.defaults.withCredentials' => true,
+
 ];
