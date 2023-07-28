@@ -3,9 +3,7 @@
 namespace App\Http\Controllers\Api\V2;
 
 use App\Models\Task;
-use Illuminate\Http\Response;
 use App\Http\Controllers\Controller;
-use Illuminate\Http\RedirectResponse;
 use App\Http\Requests\StoreTaskRequest;
 use App\Http\Requests\UpdateTaskRequest;
 use App\Http\Resources\TaskResource;
